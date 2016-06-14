@@ -1,18 +1,20 @@
 {
   "name": "browserify-reflection",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A browserify transform providing a reflection API to sources",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yannickglt/browerify-reflection.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yannick Galatol <yannick.galatol@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "minimatch": "^3.0.0",
-    "through": "^2.3.8"
-  },
-  "devDependencies": {
-    "reflection-instrumenter": "^1.0.0"
+    "through": "^2.3.8",
+    "reflection-instrumenter": "^0.1.0"
   }
 }
